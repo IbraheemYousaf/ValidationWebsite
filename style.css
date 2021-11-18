@@ -1,0 +1,90 @@
+body {
+    background: #3c3c3b;
+    font-family: calibri;
+    font-size: 20px;
+  }
+  
+  form {
+    background: #89c82e;
+    padding: 2em 4em 2em;
+    max-width: 400px;
+    margin: 40px auto 0;
+    box-shadow: 0 0 10px #222;
+    border-radius: 2px;
+  }
+
+  form h2 {
+    margin: 0 0 30px 0;
+    padding: 1px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    border-bottom: solid 1px #e5e5e5;
+  }
+
+  form h3 {
+      color: #3c3c3b;
+  }
+
+  form input {
+      border: 2px solid #f0f0f0;
+    display: block;
+    font-family: inherit;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0; 
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  form .valid input {
+      border-color: rgb(0, 255, 119);
+  }
+
+  form .valid small{
+    visibility: hidden;
+}
+
+  form .invalid input {
+      border-color: rgb(231,0,100);
+  }
+
+  form .invalid small{
+      visibility: visible;
+  }
+
+  form label {
+    position: inherit;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+
+  form small {
+     visibility: hidden;
+     color: rgb(231,0,100);
+     position: relative;
+     bottom: 0;
+     left: 0;
+  }
+
+  form button {
+    background: rgb(231,0,100);
+    box-shadow: 0 0 10px rgb(0, 63, 19);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px 0 0;
+    outline: none;
+    padding: 10px 10px;
+    display: block;
+    width: 100%;
+
+  }
+
+
+
+  

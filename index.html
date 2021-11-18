@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Page</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form" action ="/" method="GET">
+        <h2>Book a Course</h2>
+        <h3>Your Details</h3>
+        <div>
+            <label for="name">Full Name</label>
+            <input id="name" name="name" type="text">
+            <small>Error</small>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email">
+            <small>Error</small>
+        </div>
+        
+        <h3>Credit Card Details</h3>
+
+        <div>
+            <label for="cardName">Name on Card</label>
+            <input id="cardName" name="cardName" type="text">
+            <small>Error</small>
+        </div>
+        <div>
+            <label for="cardNumber">Card Number</label>
+            <input id="cardNumber" name="cardNumber" type="number">
+            <small>Error</small>
+        </div>
+        <div>
+            <label for="cardExpiry">Expiration Date</label>
+            <input id="cardExpiry" name="cardExpiry" type="month" >
+            <small>Error</small>
+        </div>
+        <div>
+            <label for="cardCVV">CVV</label>
+            <input id="cardCVV" name="cardCVV" type="number">
+            <small>Error</small>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
